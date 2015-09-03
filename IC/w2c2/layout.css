@@ -1,0 +1,60 @@
+header {
+    font-size:50px;
+    text-align: center;
+    font-family: tangerine;
+    border: solid 1px;
+}
+
+header sub {
+    font-size: 20px;
+}
+
+nav {
+    border: solid 1px;
+}
+
+section {
+    border: solid 1px;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    border: solid 1px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    border: solid 1px;
+    float: right;
+    width: 49.7%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    height: 510px;
+}
+
+#leftSide {
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    height: 500px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    border: solid 1px;
+    width: 100%;
+    margin-top: 12px;
+}
