@@ -1,0 +1,109 @@
+body {
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    table-layout: fixed;
+    border: 0;
+}
+
+tr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+td {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header {
+    width: 100%;
+    height: 25%;
+    padding: 0;
+    margin: 0;
+    font-family: "Shadows Into Light";
+    border: 0;
+    font-size: 50px;
+    background-image: url("http://orig02.deviantart.net/02ce/f/2011/140/f/8/red_and_black_background_by_thebrawlerdankuso-d3gsm32.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+table th {
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    border-bottom: 1px solid #000;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:link , a:visited{
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration:none;
+    color: red;
+}
+
+#sidebar {
+    float: left;
+    width: 25%;
+    border-right: 1px solid #000;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #990000;
+}
+
+#section {
+    float: left;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 74.9%;
+    background-color: #990000;
+}
+
+#footer {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-image: url("http://orig02.deviantart.net/02ce/f/2011/140/f/8/red_and_black_background_by_thebrawlerdankuso-d3gsm32.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
