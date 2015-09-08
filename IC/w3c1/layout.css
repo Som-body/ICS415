@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-size:50px;
+    text-align: center;
+    font-family: tangerine;
+    border: solid 1px;
+    padding: 0;
+    margin: 0;
+}
+
+header sub {
+    font-size: 20px;
+}
+
+nav {
+    border: solid 1px;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    border: solid 1px;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    border: solid 1px;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    border: solid 1px;
+    margin: 0;
+    padding: 0;
+}
+/*
+#leftSide {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+*/
+#content {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    border: solid 1px;
+    margin-top: 12px;
+    padding: 0;
+    margin: 0;
+}
