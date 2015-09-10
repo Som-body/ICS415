@@ -1,0 +1,22 @@
+header {
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+aside {
+    text-align: center;
+}
+
+section {
+    border-left: 1px solid #000;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid #000;
+}
