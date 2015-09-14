@@ -1,0 +1,18 @@
+header {
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+}
+
+nav {
+
+}
+
+section {
+    border-left: 1px solid #ffffff;
+}
+
+footer {
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
