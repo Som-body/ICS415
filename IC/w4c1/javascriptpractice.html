@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Practice</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <header><h1 id="head" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Javascript Practice</h1></header>
+    <section onclick="changeHeadColor()">Mouse over title to change it's color to red. <br>
+    Alternatively, click here to change it.<br>
+    Click again to change it back.</section>
+    <footer id="foot" onclick="changeFooter()">Click on this footer to change the content</footer>
+    <script>
+        function changeHeadColor() {
+            var headEle=window.document.getElementById('head')
+            if(headEle.style.color==='black'){
+                headEle.style.color='red';
+            }
+            else {
+                headEle.style.color='black';
+            }
+        }
+
+        function changeFooter() {
+            if(window.document.getElementById("foot").innerHTML==="Click on this footer to change the content"){
+                window.document.getElementById("foot").innerHTML="Click again to change it back";
+            }
+            else {
+                window.document.getElementById("foot").innerHTML="Click on this footer to change the content";
+            }
+        }
+    </script>
+</body>
+</html>
