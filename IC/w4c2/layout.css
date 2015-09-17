@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+table {
+    border: 1px solid #000;
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    border: 1px solid #000;
+}

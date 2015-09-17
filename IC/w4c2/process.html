@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cyborg/bootstrap.min.css">
+    <title>Javascript Practice 2</title>
+</head>
+<body>
+    <header><h1>Javascript Practice 2</h1></header>
+    <table id="input"></table>
+    <script>
+        var query = location.search.split('&');
+        var name = query[0].split("=")[1];
+        var address = query[1].split("=")[1];
+        var phone = query[2].split("=")[1];
+        var tablehtml = "<tr class='row'><th class='col-sm-12' colspan='2'>Input</th></tr><tr class='row'><td class='col-sm-4'>Name</td><td class='col-sm-8'>";
+        if (name != ''){
+            tablehtml += name + "</td></tr>";
+        }
+        else {
+            tablehtml += "'none'</td></tr>"
+        }
+        tablehtml += "<tr class='row'><td class='col-sm-4'>Address</td><td class='col-sm-8'>"
+        if (address != ''){
+            tablehtml += address + "</td></tr>";
+        }
+        else {
+            tablehtml += "'none'</td></tr>"
+        }
+        tablehtml += "<tr class='row'><td class='col-sm-4'>Phone</td><td class='col-sm-8'>"
+        if (address != ''){
+            tablehtml += phone + "</td></tr>";
+        }
+        else {
+            tablehtml += "'none'</td></tr>"
+        }
+        window.document.getElementById('input').innerHTML = tablehtml;
+    </script>
+</body>
+</html>
