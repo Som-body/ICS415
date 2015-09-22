@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css">
+    <title>JQuery Practice</title>
+</head>
+<body>
+    <header><h1>JQuery Practice1</h1></header>
+    <div class="row">
+        <aside class="col-sm-3">Click here to hide this</aside>
+        <section id='test'class="col-sm-9">Mouse enter to highlight mouseleave to stop.</section>
+    </div>
+    <footer> Double click this to change the text. </footer>
+    <script>
+        $(document).ready(function(){
+            $("section").mouseenter(function(){
+                $(this).on({
+                    mouseenter: function() {
+                        $(this).css("background-color", "blue");
+                    },
+                    mouseleave: function() {
+                        $(this).css("background-color", "transparent");
+                    }
+                });
+            });
+        });
+        $(document).ready(function(){
+           $("aside").click(function(){
+               $(this).hide();
+           }) ;
+        });
+        $(document).ready(function(){
+            $("footer").dblclick(function(){
+                $(this).text("This is a footer");
+            });
+        });
+    </script>
+</body>
+</html>
