@@ -1,0 +1,21 @@
+header {
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.question {
+    color: blue;
+    cursor: pointer;
+}
+
+section {
+    border-left: 1px solid #000;
+}
+
+.answer {
+    padding-left: 5em;
+}
+
+footer {
+    border-top: 1px solid #000;
+}
